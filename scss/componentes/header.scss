@@ -1,0 +1,195 @@
+header {
+    .upLinks {
+        text-align: end;
+
+        a {
+            @include links($weightB, $standarFont, $None, #7d7b76);
+            margin-left: 1rem;
+        }
+
+        .buttontogglerMod {
+            background-color: nth($colores, 2);
+        }
+
+        button {
+            font-size: 1.5rem;
+            border: 0;
+            background-color: white;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+            color: map-get($coloresPrincipales, color1);
+        }
+
+        .dropdownCarrito::after {
+            content: none;
+        }
+    }
+
+    .grullawebTitle {
+        background-color: map-get($coloresPrincipales, color1);
+        margin-bottom: 0;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+    .navHeader {
+        background-color: map-get($coloresPrincipales, color1);
+        padding-bottom: 3rem;
+
+        .logoGrulla {
+            height: 10rem;
+        }
+
+        .dropdownMod {
+            @include links($weightB, 1.2rem, $None, $color);
+            margin-right: 3rem;
+        }
+
+        .dropdownLista {
+            box-shadow: 0.5rem 0.5rem 0 0 nth($colores, 2);
+
+            li {
+                transition: color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+
+                &:hover {
+                    box-shadow: inset 12.5rem 0 0 0 nth($colores, 2);
+                }
+
+                a {
+                    color: map-get($coloresPrincipales, color1);
+                    text-decoration: none;
+                    margin-left: 0.5rem;
+
+                    &:hover {
+                        color: nth($colores, 4);
+                    }
+                }
+            }
+        }
+    }
+
+    .buttonMod {
+        outline: 0;
+        border: 0.063rem solid nth($colores, 3);
+        cursor: pointer;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        z-index: 1;
+        color: nth($colores, 4);
+        font-weight: nth($grosores, 3);
+    }
+
+    .buttonMod::after {
+        content: "";
+        background-color: map-get($coloresPrincipales, color2);
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        height: 100%;
+        top: 0.438rem;
+        left: 0.438rem;
+        transition: 0.2s;
+        border-radius: 0.25rem;
+    }
+
+    .buttonMod:hover::after {
+        top: 0;
+        left: 0;
+    }
+
+    .carruselMod {
+        background-color: nth($colores, 1);
+    }
+
+    .carruselIMG {
+        object-fit: contain;
+    }
+
+    .boxBrand {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: map-get($coloresPrincipales, color1);
+
+        .navlinkMod:hover {
+            animation: wiggle 2s linear infinite;
+        }
+
+        /* Keyframes */
+        @keyframes wiggle {
+
+            0%,
+            7% {
+                transform: rotateZ(0);
+            }
+
+            15% {
+                transform: rotateZ(-15deg);
+            }
+
+            20% {
+                transform: rotateZ(10deg);
+            }
+
+            25% {
+                transform: rotateZ(-10deg);
+            }
+
+            30% {
+                transform: rotateZ(6deg);
+            }
+
+            35% {
+                transform: rotateZ(-4deg);
+            }
+
+            40%,
+            100% {
+                transform: rotateZ(0);
+            }
+        }
+
+        #bp {
+            @include links($weightB, 1.2rem, $None, #1813eb);
+            left: calc(50% - 3rem);
+            top: calc(50% - 2rem);
+            height: 10rem;
+            width: 10rem;
+            background-image: url(./../assets/ilustracion-vector-textura-madera-estilo-dibujos-animados-texto-o-banner_426735-36.webp);
+            border: 0.188rem solid #1813eb;
+            transform-origin: 50% 5rem;
+        }
+
+        #tc {
+            @include links($weightB, 1.2rem, $None, #ff1500);
+            left: calc(50% - 3rem);
+            top: calc(50% - 2rem);
+            height: 10rem;
+            width: 10rem;
+            background-image: url(./../assets/ilustracion-vector-textura-madera-estilo-dibujos-animados-texto-o-banner_426735-36.webp);
+            border: 0.188rem solid nth($colores, 6);
+            transform-origin: 50% 5rem;
+        }
+
+        #ax {
+            @include links($weightB, 1.2rem, $None, white);
+            left: calc(50% - 3rem);
+            top: calc(50% - 2rem);
+            height: 10rem;
+            width: 10rem;
+            background-image: url(./../assets/ilustracion-vector-textura-madera-estilo-dibujos-animados-texto-o-banner_426735-36.webp);
+            border: 0.188rem solid nth($colores, 3);
+            transform-origin: 50% 5rem;
+        }
+    }
+
+    .dropdownCarrito {
+        background-color: nth($colores, 2);
+    }
+
+    .buttonCarrito {
+        color: #ff1500;
+    }
+}

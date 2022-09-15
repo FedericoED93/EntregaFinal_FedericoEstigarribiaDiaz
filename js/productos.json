@@ -1,0 +1,38 @@
+[
+{
+    "id":1,
+    "nombre":"Camión Didáctico promo",
+    "precio":3200,
+    "imagen": "../assets/Camion1.jpeg"
+},
+{
+    "id":2,
+    "nombre":"Cubo Didáctico",
+    "precio":2800,
+    "imagen": "../assets/Cubo1.jpeg"
+},
+{
+    "id":3,
+    "nombre":"Muñeco de Apego promo",
+    "precio":3000,
+    "imagen": "../assets/Conejo1.jpeg"
+},
+{
+    "id":4,
+    "nombre":"Pelotero",
+    "precio":3300,
+    "imagen": "../assets/Pelotero1.jpeg"
+},
+{
+    "id":5,
+    "nombre":"Libro Sensorial",
+    "precio":1800,
+    "imagen": "../assets/Librosen1.jpeg"
+},
+{
+    "id":6,
+    "nombre":"Xilofon promo",
+    "precio":3200,
+    "imagen": "../assets/Xilofon1 (1).jpeg"
+}
+]

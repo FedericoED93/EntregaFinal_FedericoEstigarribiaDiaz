@@ -1,0 +1,77 @@
+footer {
+  background-image: url(./../assets/TRAMA-COLOR.png);
+  background-size: cover;
+
+  .footertop {
+    background-color: map-get($coloresPrincipales, color1);
+    background-size: cover;
+    height: 10%;
+    margin-top: 4em;
+    margin-bottom: 1rem;
+    box-shadow: 0.5rem 0.5rem 0 0 nth($colores, 2);
+    width: 80%;
+
+    .footerTopContent {
+      @include links($weightB, 2rem, $None, #fbdd00);
+      margin-left: 2rem;
+      margin-right: 2rem;
+      text-align: center;
+    }
+
+    .footertopLinks {
+      @include links($weightB, 1.5rem, $None, $color);
+      margin-left: 2rem;
+      margin-right: 2rem;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+
+      &:active {
+        color: nth($colores, 2);
+      }
+    }
+
+    .redes {
+      @include links($weightB, 3rem, $None, $color);
+      margin-left: 2rem;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+
+      &:active {
+        color: nth($colores, 2);
+      }
+    }
+  }
+
+  .footerBottom {
+    margin-top: 5rem;
+    background-color: nth($colores, 1);
+
+    .footerbottomLogo {
+      margin-top: 2rem;
+    }
+
+    .footerbottomLinks {
+      @include links($weightB, 1rem, $None, $color);
+      margin-top: 1rem;
+
+      &:active {
+        color: nth($colores, 2);
+      }
+    }
+
+    .footerMap {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: "768px") {
+    .footerMap {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@mixin links ($weightB, $standarFont, $None, $color) {
+    font-weight: $weightB;
+    font-size: $standarFont;
+    text-decoration: $None;
+    color: $color;
+}
+
+@mixin titles ($weightB, $titleFont, $color, $background) {
+    font-weight: $weightB;
+    font-size: $titleFont;
+    background-color: $background;
+    color: $color;
+}

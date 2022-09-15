@@ -1,0 +1,232 @@
+main {
+  .newStock {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./../assets/TRAMA-COLOR.png);
+    background-size: cover;
+
+    a {
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 20rem;
+        height: 20rem;
+      }
+    }
+  }
+
+  .cardsCategorias {
+    background-color: map-get($coloresPrincipales, color1);
+    padding-bottom: 5rem;
+    width: 100%;
+  }
+
+  h1 {
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: map-get($coloresPrincipales, color4);
+  }
+
+  h2 {
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: map-get($coloresPrincipales, color4);
+  }
+
+  .categoriasPrincipales {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .cardMod {
+    border: none;
+    box-shadow: 0.5rem 0.5rem 0 0 nth($colores, 2);
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    width: 28rem;
+  }
+
+  .cardbodyCat {
+    height: 15rem;
+  }
+
+  .mainBlog {
+    background-color: map-get($coloresPrincipales, color2);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .cardMain {
+    border: none;
+    box-shadow: 0.5rem 0.5rem 0 0 nth($colores, 1);
+  }
+
+  article {
+    --bs-gutter-x: 0;
+
+    .div_main {
+      background-color: map-get($coloresPrincipales, color2);
+      color: map-get($coloresPrincipales, color4);
+      font-size: 0.8rem;
+      --bs-gutter-x: 0;
+
+      h2 {
+        padding-top: 10%;
+        margin-left: 1rem;
+        width: 80%;
+        text-align: left;
+        font-size: 2rem;
+      }
+
+      p {
+        padding-top: 5%;
+        margin-left: 1rem;
+        width: 80%;
+        text-align: left;
+        font-size: 1rem;
+      }
+    }
+
+    .div_main-img {
+      background-color: map-get($coloresPrincipales, color4);
+      object-fit: cover;
+      width: 50%;
+      padding-right: 0;
+      padding-left: 0;
+      --bs-gutter-x: 0;
+
+      img {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+
+    .cardbodyBlog {
+      background-color: map-get($coloresPrincipales, color5);
+    }
+  }
+
+  .eMain-title {
+    @include titles($weightB, $titleFont, $color, $background);
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .eMain-mod {
+    background-image: url(./../assets/TRAMA-BLANCA.png);
+    background-size: cover;
+  }
+
+  .eCard-mod {
+    --bs-gutter-x: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 30rem;
+    box-shadow: 0.5rem 0.5rem 0 0 nth($colores, 2);
+  }
+
+  .card-mod-img {
+    object-fit: contain;
+    height: 20rem;
+    width: 100%;
+  }
+
+  .cardbodyMod {
+    background-color: map-get($coloresPrincipales, color5);
+  }
+
+  .cardtitleMod {
+    color: map-get($coloresPrincipales, color1);
+    font-weight: nth($grosores, 3);
+  }
+
+  .cardparrafo {
+    text-align: end;
+    font-size: nth($textsize, 4);
+    color: map-get($coloresPrincipales, color3);
+  }
+
+  .btn-carrito {
+    background-color: nth($colores, 1);
+    box-shadow: 0.2rem 0.2rem 0 0 nth($colores, 4);
+    color: nth($colores, 3);
+
+    &:hover {
+      transform: scale(1.1);
+      background-color: nth($colores, 2);
+      color: nth($colores, 1);
+      font-weight: nth($grosores, 3);
+    }
+
+    &:active {
+      background-color: nth($colores, 3);
+      color: nth($colores, 1);
+    }
+  }
+
+  .form {
+    background-color: nth($colores, 2);
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .buttonLogReg {
+      background-color: nth($colores, 1);
+      box-shadow: 0.2rem 0.2rem 0 0 nth($colores, 4);
+      color: nth($colores, 3);
+
+      &:hover {
+        transform: scale(1.1);
+        background-color: nth($colores, 2);
+        color: nth($colores, 1);
+        font-weight: nth($grosores, 3);
+      }
+
+      &:active {
+        background-color: nth($colores, 3);
+        color: nth($colores, 1);
+      }
+    }
+  }
+
+  .nuestroLocal {
+    background-color: map-get($coloresPrincipales, color1);
+  }
+
+  .contacto {
+    background-color: map-get($coloresPrincipales, color1);
+    background-size: cover;
+    color: nth($colores, 2);
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .preguntasFrecuentes {
+    color: nth($colores, 2);
+  }
+
+  .preguntasFrecuenetsParrafo {
+    color: nth($colores, 3);
+  }
+
+  @media screen and (max-width: 1400px) {
+    .personajeGrulla {
+      display: none;
+    }
+
+    .miniBlog {
+      display: none;
+    }
+  }
+}

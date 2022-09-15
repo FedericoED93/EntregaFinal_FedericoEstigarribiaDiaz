@@ -1,0 +1,462 @@
+header .upLinks {
+  text-align: end;
+}
+header .upLinks a {
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #7d7b76;
+  margin-left: 1rem;
+}
+header .upLinks .buttontogglerMod {
+  background-color: #FBDD00;
+}
+header .upLinks button {
+  font-size: 1.5rem;
+  border: 0;
+  background-color: white;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: #19CECE;
+}
+header .upLinks .dropdownCarrito::after {
+  content: none;
+}
+header .grullawebTitle {
+  background-color: #19CECE;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+header .navHeader {
+  background-color: #19CECE;
+  padding-bottom: 3rem;
+}
+header .navHeader .logoGrulla {
+  height: 10rem;
+}
+header .navHeader .dropdownMod {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  margin-right: 3rem;
+}
+header .navHeader .dropdownLista {
+  box-shadow: 0.5rem 0.5rem 0 0 #FBDD00;
+}
+header .navHeader .dropdownLista li {
+  transition: color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+header .navHeader .dropdownLista li:hover {
+  box-shadow: inset 12.5rem 0 0 0 #FBDD00;
+}
+header .navHeader .dropdownLista li a {
+  color: #19CECE;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+header .navHeader .dropdownLista li a:hover {
+  color: #7D7B76;
+}
+header .buttonMod {
+  outline: 0;
+  border: 0.063rem solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+  color: #7D7B76;
+  font-weight: bold;
+}
+header .buttonMod::after {
+  content: "";
+  background-color: #FBDD00;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 0.438rem;
+  left: 0.438rem;
+  transition: 0.2s;
+  border-radius: 0.25rem;
+}
+header .buttonMod:hover::after {
+  top: 0;
+  left: 0;
+}
+header .carruselMod {
+  background-color: #19CECE;
+}
+header .carruselIMG {
+  object-fit: contain;
+}
+header .boxBrand {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #19CECE;
+  /* Keyframes */
+}
+header .boxBrand .navlinkMod:hover {
+  animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+header .boxBrand #bp {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #1813eb;
+  left: calc(50% - 3rem);
+  top: calc(50% - 2rem);
+  height: 10rem;
+  width: 10rem;
+  background-image: url(./../assets/ilustracion-vector-textura-madera-estilo-dibujos-animados-texto-o-banner_426735-36.webp);
+  border: 0.188rem solid #1813eb;
+  transform-origin: 50% 5rem;
+}
+header .boxBrand #tc {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #ff1500;
+  left: calc(50% - 3rem);
+  top: calc(50% - 2rem);
+  height: 10rem;
+  width: 10rem;
+  background-image: url(./../assets/ilustracion-vector-textura-madera-estilo-dibujos-animados-texto-o-banner_426735-36.webp);
+  border: 0.188rem solid #FF1500;
+  transform-origin: 50% 5rem;
+}
+header .boxBrand #ax {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  left: calc(50% - 3rem);
+  top: calc(50% - 2rem);
+  height: 10rem;
+  width: 10rem;
+  background-image: url(./../assets/ilustracion-vector-textura-madera-estilo-dibujos-animados-texto-o-banner_426735-36.webp);
+  border: 0.188rem solid white;
+  transform-origin: 50% 5rem;
+}
+header .dropdownCarrito {
+  background-color: #FBDD00;
+}
+header .buttonCarrito {
+  color: #ff1500;
+}
+
+main .newStock {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./../assets/TRAMA-COLOR.png);
+  background-size: cover;
+}
+main .newStock a {
+  display: flex;
+  justify-content: center;
+}
+main .newStock a img {
+  width: 20rem;
+  height: 20rem;
+}
+main .cardsCategorias {
+  background-color: #19CECE;
+  padding-bottom: 5rem;
+  width: 100%;
+}
+main h1 {
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: white;
+}
+main h2 {
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: white;
+}
+main .categoriasPrincipales {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main .cardMod {
+  border: none;
+  box-shadow: 0.5rem 0.5rem 0 0 #FBDD00;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  width: 28rem;
+}
+main .cardbodyCat {
+  height: 15rem;
+}
+main .mainBlog {
+  background-color: #FBDD00;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+main .cardMain {
+  border: none;
+  box-shadow: 0.5rem 0.5rem 0 0 #19CECE;
+}
+main article {
+  --bs-gutter-x: 0;
+}
+main article .div_main {
+  background-color: #FBDD00;
+  color: white;
+  font-size: 0.8rem;
+  --bs-gutter-x: 0;
+}
+main article .div_main h2 {
+  padding-top: 10%;
+  margin-left: 1rem;
+  width: 80%;
+  text-align: left;
+  font-size: 2rem;
+}
+main article .div_main p {
+  padding-top: 5%;
+  margin-left: 1rem;
+  width: 80%;
+  text-align: left;
+  font-size: 1rem;
+}
+main article .div_main-img {
+  background-color: white;
+  object-fit: cover;
+  width: 50%;
+  padding-right: 0;
+  padding-left: 0;
+  --bs-gutter-x: 0;
+}
+main article .div_main-img img {
+  padding-right: 0;
+  padding-left: 0;
+}
+main article .cardbodyBlog {
+  background-color: #EDEDED;
+}
+main .eMain-title {
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #FBDD00;
+  color: white;
+  padding: 0;
+  margin-bottom: 0;
+}
+main .eMain-mod {
+  background-image: url(./../assets/TRAMA-BLANCA.png);
+  background-size: cover;
+}
+main .eCard-mod {
+  --bs-gutter-x: 0;
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  width: 30rem;
+  box-shadow: 0.5rem 0.5rem 0 0 #FBDD00;
+}
+main .card-mod-img {
+  object-fit: contain;
+  height: 20rem;
+  width: 100%;
+}
+main .cardbodyMod {
+  background-color: #EDEDED;
+}
+main .cardtitleMod {
+  color: #19CECE;
+  font-weight: bold;
+}
+main .cardparrafo {
+  text-align: end;
+  font-size: 1.875rem;
+  color: #7D7B76;
+}
+main .btn-carrito {
+  background-color: #19CECE;
+  box-shadow: 0.2rem 0.2rem 0 0 #7D7B76;
+  color: white;
+}
+main .btn-carrito:hover {
+  transform: scale(1.1);
+  background-color: #FBDD00;
+  color: #19CECE;
+  font-weight: bold;
+}
+main .btn-carrito:active {
+  background-color: white;
+  color: #19CECE;
+}
+main .form {
+  background-color: #FBDD00;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+main .form .buttonLogReg {
+  background-color: #19CECE;
+  box-shadow: 0.2rem 0.2rem 0 0 #7D7B76;
+  color: white;
+}
+main .form .buttonLogReg:hover {
+  transform: scale(1.1);
+  background-color: #FBDD00;
+  color: #19CECE;
+  font-weight: bold;
+}
+main .form .buttonLogReg:active {
+  background-color: white;
+  color: #19CECE;
+}
+main .nuestroLocal {
+  background-color: #19CECE;
+}
+main .contacto {
+  background-color: #19CECE;
+  background-size: cover;
+  color: #FBDD00;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+main .preguntasFrecuentes {
+  color: #FBDD00;
+}
+main .preguntasFrecuenetsParrafo {
+  color: white;
+}
+@media screen and (max-width: 1400px) {
+  main .personajeGrulla {
+    display: none;
+  }
+  main .miniBlog {
+    display: none;
+  }
+}
+
+footer {
+  background-image: url(./../assets/TRAMA-COLOR.png);
+  background-size: cover;
+}
+footer .footertop {
+  background-color: #19CECE;
+  background-size: cover;
+  height: 10%;
+  margin-top: 4em;
+  margin-bottom: 1rem;
+  box-shadow: 0.5rem 0.5rem 0 0 #FBDD00;
+  width: 80%;
+}
+footer .footertop .footerTopContent {
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fbdd00;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+}
+footer .footertop .footertopLinks {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+footer .footertop .footertopLinks:hover {
+  transform: scale(1.2);
+}
+footer .footertop .footertopLinks:active {
+  color: #FBDD00;
+}
+footer .footertop .redes {
+  font-weight: bold;
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+  margin-left: 2rem;
+}
+footer .footertop .redes:hover {
+  transform: scale(1.2);
+}
+footer .footertop .redes:active {
+  color: #FBDD00;
+}
+footer .footerBottom {
+  margin-top: 5rem;
+  background-color: #19CECE;
+}
+footer .footerBottom .footerbottomLogo {
+  margin-top: 2rem;
+}
+footer .footerBottom .footerbottomLinks {
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+}
+footer .footerBottom .footerbottomLinks:active {
+  color: #FBDD00;
+}
+footer .footerBottom .footerMap {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+  footer .footerMap {
+    display: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

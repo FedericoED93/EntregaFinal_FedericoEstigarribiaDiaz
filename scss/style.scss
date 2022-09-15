@@ -1,0 +1,23 @@
+@import"./base/variables";
+@import"./base/listas";
+@import"./base/mixin";
+@import"./base/maps";
+@import"./base/extends";
+@import"./componentes/header";
+@import"./componentes/main";
+@import"./componentes/footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
