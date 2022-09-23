@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "nombre":"Domino Huellas de Color",
+        "precio":3200,
+        "imagen": "../assets/Domino.jpeg"
+    },
+    {
+        "id":2,
+        "nombre":"Juego de las Emociones",
+        "precio":2800,
+        "imagen": "../assets/Juego de las emociones (1).jpeg"
+    },
+    {
+        "id":3,
+        "nombre":"Viaje de las Emociones",
+        "precio":3000,
+        "imagen": "../assets/Viaje de emociones (1).jpeg"
+    },
+    {
+        "id":4,
+        "nombre":"Como Perros y Gatos",
+        "precio":1750,
+        "imagen": "../assets/Como perros y gatos (1).jpeg"
+    },
+    {
+        "id":5,
+        "nombre":"Sumo 10",
+        "precio":1800,
+        "imagen": "../assets/Sumo10 (1).jpeg"
+    },
+    {
+        "id":6,
+        "nombre":"Color Escondido",
+        "precio":2500,
+        "imagen": "../assets/Color escondido (1).jpeg"
+    }
+    ]

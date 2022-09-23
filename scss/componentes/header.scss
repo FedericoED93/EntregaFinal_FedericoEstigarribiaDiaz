@@ -192,4 +192,21 @@ header {
     .buttonCarrito {
         color: #ff1500;
     }
+
+    .carrito-itemsTotales{
+        background-color: map-get($coloresPrincipales, color2 )
+    }
+
+    .totalTxt{
+        font-size: 1.3rem;
+        padding-left: 4rem;
+        color: map-get($coloresPrincipales, color3 );
+    }
+
+    .sumaTotal{
+        font-weight: bold;
+        font-size: 1.25rem;
+        color: map-get($coloresPrincipales, color3 );
+    }
 }
+

@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "nombre":"Laberinto de Bolitas Zig Zag",
+        "precio":5800,
+        "imagen": "../assets/Laberinto de Bolitas Zig Zag.jpg"
+    },
+    {
+        "id":2,
+        "nombre":"Laberinto de Bolitas Vuelta al Mundo",
+        "precio":5800,
+        "imagen": "../assets/Laberinto de Bolitas Vuelta al Mundo.jpg"
+    }
+    ]

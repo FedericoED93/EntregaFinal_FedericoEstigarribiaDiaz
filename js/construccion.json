@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "nombre":"Arma Mec",
+        "precio":3500,
+        "imagen": "../assets/Arma Mec (1).jpeg"
+    },
+    {
+        "id":2,
+        "nombre":"Tubix",
+        "precio":2800,
+        "imagen": "../assets/Tubix (1).jpeg"
+    },
+    {
+        "id":3,
+        "nombre":"Crico",
+        "precio":3000,
+        "imagen": "../assets/Crico (1).jpeg"
+    }
+    ]

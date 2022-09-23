@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "nombre":"Patrulla Oceanica",
+        "precio":5410,
+        "imagen": "../assets/Trencity Patrulla Oceanica.jpg"
+    },
+    {
+        "id":2,
+        "nombre":"Kit Inicial",
+        "precio":5200,
+        "imagen": "../assets/Trencity Pista Kit Inicial.jpg"
+    },
+    {
+        "id":3,
+        "nombre":"Pista Turbo",
+        "precio":7990,
+        "imagen": "../assets/Trencitty Pista Turbo.jpg"
+    }
+    ]

@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "nombre":"Experimentos de Ciencia",
+        "precio":3200,
+        "imagen": "../assets/Experimentos de Ciencia (1).jpeg"
+    },
+    {
+        "id":2,
+        "nombre":"Juegos de Ciencia",
+        "precio":2800,
+        "imagen": "../assets/Juego de ciencias (1).jpeg"
+    },
+    {
+        "id":3,
+        "nombre":"Lab Set",
+        "precio":3000,
+        "imagen": "../assets/Lab Set (1).jpeg"
+    },
+    {
+        "id":4,
+        "nombre":"Masa Elastica",
+        "precio":3300,
+        "imagen": "../assets/Masa Elastica (1).jpeg"
+    },
+    {
+        "id":5,
+        "nombre":"Criaturas",
+        "precio":1800,
+        "imagen": "../assets/Criaturas (1).jpeg"
+    }
+    ]

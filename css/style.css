@@ -171,6 +171,19 @@ header .dropdownCarrito {
 header .buttonCarrito {
   color: #ff1500;
 }
+header .carrito-itemsTotales {
+  background-color: #FBDD00;
+}
+header .totalTxt {
+  font-size: 1.3rem;
+  padding-left: 4rem;
+  color: #7D7B76;
+}
+header .sumaTotal {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #7D7B76;
+}
 
 main .newStock {
   display: flex;

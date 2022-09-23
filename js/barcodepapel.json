@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "nombre":"Todos a la Mesa",
+        "precio":3010,
+        "imagen": "../assets/Todos a la mesa 1.jpg"
+    },
+    {
+        "id":2,
+        "nombre":"Como Perros y Gatos",
+        "precio":1750,
+        "imagen": "../assets/Como perros y gatos (1).jpeg"
+    },
+    {
+        "id":3,
+        "nombre":"El Gran Circo",
+        "precio":2590,
+        "imagen": "../assets/El gran circo 1.jpeg"
+    }
+    ]

@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "nombre":"Rompecabezas de Animales",
+        "precio":3200,
+        "imagen": "../assets/Animales (1).jpeg"
+    },
+    {
+        "id":2,
+        "nombre":"Rompecabezas en el Bosque",
+        "precio":2800,
+        "imagen": "../assets/Bosque (1).jpeg"
+    },
+    {
+        "id":3,
+        "nombre":"Rompecabezas Didáctico",
+        "precio":3000,
+        "imagen": "../assets/Didactico (1).jpeg"
+    },
+    {
+        "id":4,
+        "nombre":"Rompecabezas de Dinosaurios",
+        "precio":3300,
+        "imagen": "../assets/Dinos (1).jpeg"
+    },
+    {
+        "id":5,
+        "nombre":"Rompe Cabezas de Encastre",
+        "precio":1800,
+        "imagen": "../assets/Encastre (1).jpeg"
+    },
+    {
+        "id":6,
+        "nombre":"Rompecabezas Fantástico",
+        "precio":3200,
+        "imagen": "../assets/Fantastico (1).jpeg"
+    }
+    ]
